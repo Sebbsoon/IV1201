@@ -50,8 +50,7 @@ app.get("/", (req, res) => {
     return res.send('this is root')
 });
 
-const server = app.listen(443,
-    '3.75.158.163',
+const server = app.listen(8000,
     () => {
         console.log(`Server on port ${server.address().address}:${server.address().port}`);
     }
