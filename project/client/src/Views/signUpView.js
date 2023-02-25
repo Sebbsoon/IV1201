@@ -11,7 +11,7 @@ export function SignUpView() {
 			Object.fromEntries(formData.entries());
 
 		try {
-			const response = await axios.post('http://localhost:3000/person/signup', {
+			const response = await axios.post('http://localhost:8000/person/signup', {
 				firstname,
 				lastname,
 				email,

@@ -11,7 +11,7 @@ const Validators = require('../util/Validators');
 
 const WError = require('verror').WError;
 
-class projectDAO {
+class ProjectDAO {
     constructor() {
         const namespace = cls.createNamespace('projectDB');
         Sequelize.useCLS(namespace);
@@ -348,4 +348,4 @@ class projectDAO {
         );
     }
 }
-module.exports = projectDAO;
+module.exports = ProjectDAO;

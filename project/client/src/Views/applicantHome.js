@@ -20,7 +20,7 @@ export function ApplicantHome() {
 
 		try {
 			const response = await axios.post(
-				'http://localhost:3000/person/application',
+				'http://localhost:8000/person/application',
 				{
 					firstname,
 					lastname,
@@ -37,8 +37,6 @@ export function ApplicantHome() {
 			console.error(error);
 		}
 	}
-
-	const url = 'http://localhost:3001/apply';
 
 	const [competencies, setCompetencies] = useState([
 		{ competency: 'Ticket Sales', yearsOfExperience: '', isChecked: false },
