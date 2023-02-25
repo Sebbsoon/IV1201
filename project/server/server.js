@@ -51,7 +51,7 @@ app.get("/", (req, res) => {
 });
 
 const server = app.listen(443,
-    'https://iv1201.onrender.com',
+    '3.75.158.163',
     () => {
         console.log(`Server on port ${server.address().address}:${server.address().port}`);
     }
