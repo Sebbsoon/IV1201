@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "cors": "^2.8.5"
+  },
+  "scripts": {
+    "server-init": "npm i ./server",
+    "client-init": "npm i ./client"
   }
 }
