@@ -1,9 +1,10 @@
 {
   "dependencies": {
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "server": "file:project/server"
   },
   "scripts": {
-    "server-init": "npm i ./server",
-    "client-init": "npm i ./client"
+    "server-init": "npm i project\\server",
+    "client-init": "npm i project\\client"
   }
 }
